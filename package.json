@@ -1,0 +1,16 @@
+{
+  "name": "amigatools",
+  "version": "1.0.0",
+  "description": "Amiga demo coding helper scripts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "68kcounter": "amigatools"
+  },
+  "author": "gigabates <hello@grahambates.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  }
+}

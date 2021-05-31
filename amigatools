@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+require("yargs")
+  .scriptName("amigatools")
+  .usage("$0 <cmd> [args]")
+  .command(...require("./commands/sin"))
+  .command(...require("./commands/perlin"))
+  .command(...require("./commands/mul2shifts"))
+  .command(...require("./commands/scale"))
+  .command(...require("./commands/shiftrgba"))
+  .help().argv;
