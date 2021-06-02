@@ -107,8 +107,6 @@ const handler = function ({
     generateNoise(amp, wl, octaves, divisor, steps)
   ).map((n) => Math.round(n + origin));
 
-  // TODO: add origin
-
   const tblOpts = {
     hex: !decimal,
     size,
