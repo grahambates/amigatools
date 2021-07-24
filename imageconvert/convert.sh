@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# This is a simple wrapper for ImageMagick and amigeconv https://github.com/timfel/amigeconv
+# This is a simple wrapper for ImageMagick and amigeconv https://github.com/tditlu/amigeconv
 # It handles my most common use case of scaling, reducing colour depth and
 # exporting to RAW image and palette data,
 
